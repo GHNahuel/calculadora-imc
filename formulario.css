@@ -1,18 +1,4 @@
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
 h1 {
     background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); 
     text-align: center;
@@ -21,50 +7,34 @@ h1 {
 }
 
 
-
-main {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 form {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-}
 
 input[type="text"] {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 input[type="submit"] {
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
-    border: none;
+    border: darkcyan;
     border-radius: 5px;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #0a610a;
 }
 
-#resultado {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
+@media (min-width: 576px){
+div.container {width:30%;}
 }
+
 
 
 
