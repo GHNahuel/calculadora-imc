@@ -10,5 +10,5 @@ function clickBtnCalcular(){
     let altura = txtAltura.value;
 
     let imc = peso / (altura * altura);
-    alert("El IMC es: "imc);
+    alert("Tu IMC es: " + Math.round(imc));
 }
